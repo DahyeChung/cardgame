@@ -7,4 +7,5 @@ Card::Card(std::string newName, std::string newSuit, int newValue)
     name = newName;
     suit = newSuit;
     value = newValue;
+    std::cout << "test";
 }
